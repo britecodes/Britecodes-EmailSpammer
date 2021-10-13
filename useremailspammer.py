@@ -4,7 +4,19 @@ from easygui import passwordbox
 import time
 import sys
 
-print("Britecodes new and improved email spammer")
+print("Email spammer \n BY")
+print( """
+▀█████████▄     ▄████████  ▄█      ███        ▄████████  ▄████████  ▄██████▄  ████████▄     ▄████████    ▄████████ 
+  ███    ███   ███    ███ ███  ▀█████████▄   ███    ███ ███    ███ ███    ███ ███   ▀███   ███    ███   ███    ███ 
+  ███    ███   ███    ███ ███▌    ▀███▀▀██   ███    █▀  ███    █▀  ███    ███ ███    ███   ███    █▀    ███    █▀  
+ ▄███▄▄▄██▀   ▄███▄▄▄▄██▀ ███▌     ███   ▀  ▄███▄▄▄     ███        ███    ███ ███    ███  ▄███▄▄▄       ███        
+▀▀███▀▀▀██▄  ▀▀███▀▀▀▀▀   ███▌     ███     ▀▀███▀▀▀     ███        ███    ███ ███    ███ ▀▀███▀▀▀     ▀███████████ 
+  ███    ██▄ ▀███████████ ███      ███       ███    █▄  ███    █▄  ███    ███ ███    ███   ███    █▄           ███ 
+  ███    ███   ███    ███ ███      ███       ███    ███ ███    ███ ███    ███ ███   ▄███   ███    ███    ▄█    ███ 
+▄█████████▀    ███    ███ █▀      ▄████▀     ██████████ ████████▀   ▀██████▀  ████████▀    ██████████  ▄████████▀  
+               ███    ███                                                                                          
+""")
+print("Britecodes new and improved email spammer, pls use responsibly")
 email = input("Please enter your email you wish to log into.. ")
 password = passwordbox("PASSWORD:")
 subinput = input("What do you wish the subject of the email to be?.. ")
